@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "kanzai-prod": {
+      "hosting": {
+        "kanzai": [
+          "kanzai-prod"
+        ]
+      }
+    }
+  }
+}
