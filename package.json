@@ -12,9 +12,7 @@
     "serve:ssr": "node dist/kanzai/server/main.js",
     "build:ssr": "ng build --prod && ng run kanzai:server:production",
     "prerender": "ng run kanzai:prerender",
-    "prebuild:ssr": "ngcc",
-    "build:prerender": "ng build --prod && node prerender.js",
-    "serve:prerender": "http-server dist/browser -c-1"
+    "prebuild:ssr": "ngcc"
   },
   "private": true,
   "dependencies": {
